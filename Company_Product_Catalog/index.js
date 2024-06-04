@@ -1,5 +1,7 @@
 "use strict";
 //-------------------------------------------------> ASSIGNMENT NO-3 <-------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------> COMPANY PRODUCT CATALOG <-----------------------------------------------------------------------------------------------------------
+const inventory = [];
 let mbl = {
     name: "Samsung",
     model: "Galaxy S24 Ultra",
@@ -18,7 +20,7 @@ let mbl2 = {
     quantity: 50,
     cost: 419600,
 };
-const inventory = [mbl, mbl1, mbl2];
+inventory.unshift(mbl, mbl1, mbl2);
 console.log(inventory[2].quantity, "mbl2-quantity:"); //Accessing the quantity property of index 2 from inventory array.    --->output: 50
 console.log(inventory[0], "mbl-all-Properties:"); //Accessing all the properties of index 0 from inventory array.   --->output: {name: 'Samsung',model: 'Galaxy S24 Ultra',quantity: 120, cost: 399999}
 let mbl3 = {
