@@ -1,3 +1,4 @@
+"use strict";
 //--------------------------------------> ASSIGNMENT NO-2 <------------------------------------------------------------------------------
 //--------------------------------------> REARRANGING WORDS <----------------------------------------------------------------------------
 const scrambledArray = ['student', 'of', true, 123, 'am', 'a', 'GIAIC', 'I'];
@@ -13,4 +14,4 @@ console.log(scrambledArray.join(' ')); //output: I am a student of GIAIC.
 // let thirdWord = scrambledArray.slice(0,2);
 // let fourthWord = scrambledArray.slice(4,5);
 // let sentence = [firstWord,...secondWord,...thirdWord,fourthWord]
-// console.log(sentence.join(' '))
+// console.log(sentence.join(' '))  //output: I am a student of GIAIC.

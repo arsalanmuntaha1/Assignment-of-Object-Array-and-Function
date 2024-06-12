@@ -1,21 +1,21 @@
 //-----------------------------------> ASSIGNMENT OF OBJECT, ARRAY AND FUNCTION <----------------------------------------------------------------------------------
-let people = {
+var people = {
     firstName: 'Muntaha',
     lastName: 'Arsalan',
     id: 'arsalanmuntaha1@gmail.com',
     friends: []
 };
-let friend1 = {
+var friend1 = {
     firstName: 'Sana',
     lastName: 'Shakoor',
     id: 'sanashakoor456@gmail.com'
 };
-let friend2 = {
+var friend2 = {
     firstName: 'Arisha',
     lastName: 'Naz',
     id: 'arishnaz_36@gmail.com'
 };
-let friend3 = {
+var friend3 = {
     firstName: 'Aisha',
     lastName: 'Hussain',
 };
