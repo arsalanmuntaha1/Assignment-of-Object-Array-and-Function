@@ -1,21 +1,22 @@
+"use strict";
 //-----------------------------------> ASSIGNMENT OF OBJECT, ARRAY AND FUNCTION <----------------------------------------------------------------------------------
-var people = {
+let people = {
     firstName: 'Muntaha',
     lastName: 'Arsalan',
     id: 'arsalanmuntaha1@gmail.com',
     friends: []
 };
-var friend1 = {
+let friend1 = {
     firstName: 'Sana',
     lastName: 'Shakoor',
     id: 'sanashakoor456@gmail.com'
 };
-var friend2 = {
+let friend2 = {
     firstName: 'Arisha',
     lastName: 'Naz',
     id: 'arishnaz_36@gmail.com'
 };
-var friend3 = {
+let friend3 = {
     firstName: 'Aisha',
     lastName: 'Hussain',
 };
